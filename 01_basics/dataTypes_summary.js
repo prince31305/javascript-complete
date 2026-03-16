@@ -24,8 +24,8 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
-    age: 22,
+    name: "prince",
+    age: 20,
 }
 
 const myFunction = function(){
@@ -46,5 +46,12 @@ let myYoutubeName = "Princekumar"
 let anotherName = myYoutubeName
 anotherName = "Tech coder"
 
-console.log(anotherName)
-console.log(myYoutubeName)
+// console.log(anotherName)
+// console.log(myYoutubeName)
+
+let obj1 = {name: "Prince"};
+let obj2 = obj1;
+
+obj2.name = "Rahul";
+
+console.log(obj1.name); // Rahul
